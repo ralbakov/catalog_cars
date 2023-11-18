@@ -13,8 +13,9 @@ def show_model_car(request):
         if form.is_valid():
             name = form.cleaned_data['name']
             logger.info(f'Получили {name=}')
-            form = CarModel.objects.filter(carmark=name)
+            cars = CarModel.objects.filter(carmark=name)
+            return render(request, 'idea/index.html', {'cars': cars, 'form': form})
+    
     else:
         form = CarMarkForm()
-
     return render(request, 'idea/index.html', {'form': form})

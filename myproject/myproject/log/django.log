@@ -1,2 +1,227 @@
 INFO 2023-11-18 14:08:08,845 autoreload 6538 8103665344 /Users/ruslanalbakov/Documents/Interview/myproject/idea/models.py changed, reloading.
 INFO 2023-11-18 14:08:09,009 autoreload 6546 8103665344 Watching for file changes with StatReloader
+INFO 2023-11-18 14:22:03,799 autoreload 6995 8103665344 Watching for file changes with StatReloader
+INFO 2023-11-18 14:22:05,928 basehttp 6995 6137278464 "GET / HTTP/1.1" 200 15648
+INFO 2023-11-18 14:22:30,602 basehttp 6995 6137278464 "GET / HTTP/1.1" 200 15648
+INFO 2023-11-18 14:22:55,630 basehttp 6995 6137278464 "GET / HTTP/1.1" 200 30530
+INFO 2023-11-18 14:23:26,075 autoreload 6995 8103665344 /Users/ruslanalbakov/Documents/Interview/myproject/idea/views.py changed, reloading.
+INFO 2023-11-18 14:23:26,339 autoreload 7047 8103665344 Watching for file changes with StatReloader
+INFO 2023-11-18 14:23:26,628 basehttp 7047 6166212608 "GET / HTTP/1.1" 200 30530
+INFO 2023-11-18 14:23:28,011 basehttp 7047 6166212608 "GET / HTTP/1.1" 200 30530
+INFO 2023-11-18 14:23:33,893 basehttp 7047 6166212608 "GET / HTTP/1.1" 200 30530
+INFO 2023-11-18 14:23:59,671 basehttp 7047 6166212608 "GET / HTTP/1.1" 200 30530
+INFO 2023-11-18 14:24:03,502 basehttp 7047 6166212608 "GET / HTTP/1.1" 200 15772
+INFO 2023-11-18 14:24:10,440 basehttp 7047 6166212608 "POST / HTTP/1.1" 200 15842
+INFO 2023-11-18 14:24:35,969 basehttp 7047 6166212608 "GET / HTTP/1.1" 200 15772
+INFO 2023-11-18 14:24:38,456 basehttp 7047 6166212608 "POST / HTTP/1.1" 200 15842
+INFO 2023-11-18 14:25:06,161 autoreload 7047 8103665344 /Users/ruslanalbakov/Documents/Interview/myproject/idea/views.py changed, reloading.
+INFO 2023-11-18 14:25:06,306 autoreload 7081 8103665344 Watching for file changes with StatReloader
+INFO 2023-11-18 14:25:26,689 autoreload 7081 8103665344 /Users/ruslanalbakov/Documents/Interview/myproject/idea/views.py changed, reloading.
+INFO 2023-11-18 14:25:26,862 autoreload 7090 8103665344 Watching for file changes with StatReloader
+INFO 2023-11-18 14:25:30,997 autoreload 7090 8103665344 /Users/ruslanalbakov/Documents/Interview/myproject/idea/views.py changed, reloading.
+INFO 2023-11-18 14:25:31,149 autoreload 7096 8103665344 Watching for file changes with StatReloader
+INFO 2023-11-18 14:25:32,271 autoreload 7096 8103665344 /Users/ruslanalbakov/Documents/Interview/myproject/idea/views.py changed, reloading.
+INFO 2023-11-18 14:25:32,408 autoreload 7098 8103665344 Watching for file changes with StatReloader
+INFO 2023-11-18 14:25:33,485 basehttp 7098 6159233024 "GET / HTTP/1.1" 200 15772
+INFO 2023-11-18 14:25:54,276 basehttp 7098 6159233024 "POST / HTTP/1.1" 200 15842
+INFO 2023-11-18 14:26:06,384 autoreload 7139 8103665344 Watching for file changes with StatReloader
+INFO 2023-11-18 14:26:12,411 basehttp 7139 6190149632 "GET / HTTP/1.1" 200 15772
+INFO 2023-11-18 14:28:32,482 basehttp 7139 6190149632 "POST / HTTP/1.1" 200 15842
+INFO 2023-11-18 14:29:00,435 autoreload 7139 8103665344 /Users/ruslanalbakov/Documents/Interview/myproject/idea/views.py changed, reloading.
+INFO 2023-11-18 14:29:00,664 autoreload 7168 8103665344 Watching for file changes with StatReloader
+INFO 2023-11-18 14:29:05,160 basehttp 7168 6156283904 "GET / HTTP/1.1" 200 15772
+ERROR 2023-11-18 14:29:07,467 log 7168 6156283904 Internal Server Error: /
+Traceback (most recent call last):
+  File "/Users/ruslanalbakov/Documents/Interview/venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ruslanalbakov/Documents/Interview/venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ruslanalbakov/Documents/Interview/myproject/idea/views.py", line 17, in show_model_car
+    render(request, 'idea/index.html', {'cars': cars})
+                                                ^^^^
+UnboundLocalError: cannot access local variable 'cars' where it is not associated with a value
+ERROR 2023-11-18 14:29:07,468 basehttp 7168 6156283904 "POST / HTTP/1.1" 500 61976
+INFO 2023-11-18 14:29:25,249 autoreload 7168 8103665344 /Users/ruslanalbakov/Documents/Interview/myproject/idea/views.py changed, reloading.
+INFO 2023-11-18 14:29:25,404 autoreload 7181 8103665344 Watching for file changes with StatReloader
+INFO 2023-11-18 14:29:30,550 autoreload 7181 8103665344 /Users/ruslanalbakov/Documents/Interview/myproject/idea/views.py changed, reloading.
+INFO 2023-11-18 14:29:30,742 autoreload 7188 8103665344 Watching for file changes with StatReloader
+INFO 2023-11-18 14:29:32,142 basehttp 7188 6135607296 "GET / HTTP/1.1" 200 15772
+ERROR 2023-11-18 14:29:34,772 log 7188 6135607296 Internal Server Error: /
+Traceback (most recent call last):
+  File "/Users/ruslanalbakov/Documents/Interview/venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ruslanalbakov/Documents/Interview/venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ruslanalbakov/Documents/Interview/myproject/idea/views.py", line 17, in show_model_car
+    return render(request, 'idea/index.html', {'cars': cars})
+                                                       ^^^^
+UnboundLocalError: cannot access local variable 'cars' where it is not associated with a value
+ERROR 2023-11-18 14:29:34,773 basehttp 7188 6135607296 "POST / HTTP/1.1" 500 61898
+INFO 2023-11-18 14:30:05,570 autoreload 7188 8103665344 /Users/ruslanalbakov/Documents/Interview/myproject/idea/views.py changed, reloading.
+INFO 2023-11-18 14:30:05,739 autoreload 7199 8103665344 Watching for file changes with StatReloader
+INFO 2023-11-18 14:30:50,447 autoreload 7199 8103665344 /Users/ruslanalbakov/Documents/Interview/myproject/idea/views.py changed, reloading.
+INFO 2023-11-18 14:30:50,605 autoreload 7233 8103665344 Watching for file changes with StatReloader
+INFO 2023-11-18 14:30:54,850 basehttp 7233 6201356288 "GET / HTTP/1.1" 200 15772
+ERROR 2023-11-18 14:30:57,385 log 7233 6201356288 Internal Server Error: /
+Traceback (most recent call last):
+  File "/Users/ruslanalbakov/Documents/Interview/venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ruslanalbakov/Documents/Interview/venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "/Users/ruslanalbakov/Documents/Interview/venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view idea.views.show_model_car didn't return an HttpResponse object. It returned None instead.
+ERROR 2023-11-18 14:30:57,386 basehttp 7233 6201356288 "POST / HTTP/1.1" 500 62719
+INFO 2023-11-18 14:33:57,238 autoreload 7233 8103665344 /Users/ruslanalbakov/Documents/Interview/myproject/idea/views.py changed, reloading.
+INFO 2023-11-18 14:33:57,477 autoreload 7262 8103665344 Watching for file changes with StatReloader
+INFO 2023-11-18 14:34:04,690 autoreload 7262 8103665344 /Users/ruslanalbakov/Documents/Interview/myproject/idea/views.py changed, reloading.
+INFO 2023-11-18 14:34:04,845 autoreload 7272 8103665344 Watching for file changes with StatReloader
+INFO 2023-11-18 14:34:06,924 autoreload 7272 8103665344 /Users/ruslanalbakov/Documents/Interview/myproject/idea/views.py changed, reloading.
+INFO 2023-11-18 14:34:07,087 autoreload 7276 8103665344 Watching for file changes with StatReloader
+INFO 2023-11-18 14:34:13,263 autoreload 7276 8103665344 /Users/ruslanalbakov/Documents/Interview/myproject/idea/views.py changed, reloading.
+INFO 2023-11-18 14:34:13,444 autoreload 7282 8103665344 Watching for file changes with StatReloader
+INFO 2023-11-18 14:34:49,550 basehttp 7282 6166147072 "POST / HTTP/1.1" 200 15842
+INFO 2023-11-18 14:34:54,280 basehttp 7282 6166147072 "GET / HTTP/1.1" 200 15772
+INFO 2023-11-18 14:34:57,146 basehttp 7282 6166147072 "POST / HTTP/1.1" 200 15842
+INFO 2023-11-18 14:35:17,628 autoreload 7282 8103665344 /Users/ruslanalbakov/Documents/Interview/myproject/idea/views.py changed, reloading.
+INFO 2023-11-18 14:35:17,791 autoreload 7300 8103665344 Watching for file changes with StatReloader
+INFO 2023-11-18 14:35:24,804 basehttp 7300 6170456064 "GET / HTTP/1.1" 200 15772
+ERROR 2023-11-18 14:35:27,061 log 7300 6170456064 Internal Server Error: /
+Traceback (most recent call last):
+  File "/Users/ruslanalbakov/Documents/Interview/venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ruslanalbakov/Documents/Interview/venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ruslanalbakov/Documents/Interview/myproject/idea/views.py", line 17, in show_model_car
+    return render(request, 'idea/index.html', {'cars': cars})
+                                                       ^^^^
+UnboundLocalError: cannot access local variable 'cars' where it is not associated with a value
+ERROR 2023-11-18 14:35:27,062 basehttp 7300 6170456064 "POST / HTTP/1.1" 500 62008
+INFO 2023-11-18 14:36:19,075 autoreload 7300 8103665344 /Users/ruslanalbakov/Documents/Interview/myproject/idea/views.py changed, reloading.
+INFO 2023-11-18 14:36:19,233 autoreload 7313 8103665344 Watching for file changes with StatReloader
+INFO 2023-11-18 14:36:21,350 autoreload 7313 8103665344 /Users/ruslanalbakov/Documents/Interview/myproject/idea/views.py changed, reloading.
+INFO 2023-11-18 14:36:21,542 autoreload 7320 8103665344 Watching for file changes with StatReloader
+INFO 2023-11-18 14:36:23,959 basehttp 7320 6161412096 "GET / HTTP/1.1" 200 15772
+ERROR 2023-11-18 14:36:26,685 log 7320 6161412096 Internal Server Error: /
+Traceback (most recent call last):
+  File "/Users/ruslanalbakov/Documents/Interview/venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ruslanalbakov/Documents/Interview/venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ruslanalbakov/Documents/Interview/myproject/idea/views.py", line 17, in show_model_car
+    return render(request, 'idea/index.html', {'cars': cars.name})
+                                                       ^^^^
+UnboundLocalError: cannot access local variable 'cars' where it is not associated with a value
+ERROR 2023-11-18 14:36:26,686 basehttp 7320 6161412096 "POST / HTTP/1.1" 500 62018
+INFO 2023-11-18 14:36:37,047 autoreload 7320 8103665344 /Users/ruslanalbakov/Documents/Interview/myproject/idea/views.py changed, reloading.
+INFO 2023-11-18 14:36:37,208 autoreload 7328 8103665344 Watching for file changes with StatReloader
+INFO 2023-11-18 14:36:54,560 autoreload 7328 8103665344 /Users/ruslanalbakov/Documents/Interview/myproject/idea/views.py changed, reloading.
+INFO 2023-11-18 14:36:54,738 autoreload 7340 8103665344 Watching for file changes with StatReloader
+INFO 2023-11-18 14:36:55,894 basehttp 7340 6203273216 "GET / HTTP/1.1" 200 15772
+INFO 2023-11-18 14:36:57,989 basehttp 7340 6203273216 "POST / HTTP/1.1" 200 15842
+INFO 2023-11-18 14:37:13,996 basehttp 7340 6203273216 "POST / HTTP/1.1" 200 15842
+INFO 2023-11-18 14:37:55,858 basehttp 7340 6203273216 "GET / HTTP/1.1" 200 30530
+INFO 2023-11-18 14:38:32,719 basehttp 7340 6203273216 "GET / HTTP/1.1" 200 30534
+INFO 2023-11-18 14:38:45,296 basehttp 7340 6203273216 "GET / HTTP/1.1" 200 15772
+INFO 2023-11-18 14:38:48,204 views 7340 6203273216 Получили name=<CarMark: Koenigsegg>
+ERROR 2023-11-18 14:38:48,234 log 7340 6203273216 Internal Server Error: /
+Traceback (most recent call last):
+  File "/Users/ruslanalbakov/Documents/Interview/venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ruslanalbakov/Documents/Interview/venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ruslanalbakov/Documents/Interview/myproject/idea/views.py", line 18, in show_model_car
+    return render(request, 'idea/index.html', {'cars': cars.name})
+                                                       ^^^^^^^^^
+AttributeError: 'QuerySet' object has no attribute 'name'
+ERROR 2023-11-18 14:38:48,235 basehttp 7340 6203273216 "POST / HTTP/1.1" 500 62541
+INFO 2023-11-18 14:39:20,201 autoreload 7340 8103665344 /Users/ruslanalbakov/Documents/Interview/myproject/idea/views.py changed, reloading.
+INFO 2023-11-18 14:39:20,390 autoreload 7392 8103665344 Watching for file changes with StatReloader
+INFO 2023-11-18 14:39:21,266 basehttp 7392 6194212864 "GET / HTTP/1.1" 200 15772
+INFO 2023-11-18 14:39:26,367 views 7392 6194212864 Получили name=<CarMark: Thairung>
+INFO 2023-11-18 14:39:26,369 basehttp 7392 6194212864 "POST / HTTP/1.1" 200 891
+INFO 2023-11-18 14:40:28,722 basehttp 7392 6194212864 "GET / HTTP/1.1" 200 15776
+INFO 2023-11-18 14:40:31,559 views 7392 6194212864 Получили name=<CarMark: Koenigsegg>
+INFO 2023-11-18 14:40:31,561 basehttp 7392 6194212864 "POST / HTTP/1.1" 200 996
+INFO 2023-11-18 14:40:55,947 autoreload 7392 8103665344 /Users/ruslanalbakov/Documents/Interview/myproject/idea/views.py changed, reloading.
+INFO 2023-11-18 14:40:56,104 autoreload 7443 8103665344 Watching for file changes with StatReloader
+INFO 2023-11-18 14:40:58,216 autoreload 7443 8103665344 /Users/ruslanalbakov/Documents/Interview/myproject/idea/views.py changed, reloading.
+INFO 2023-11-18 14:40:58,386 autoreload 7450 8103665344 Watching for file changes with StatReloader
+INFO 2023-11-18 14:41:00,482 autoreload 7450 8103665344 /Users/ruslanalbakov/Documents/Interview/myproject/idea/views.py changed, reloading.
+INFO 2023-11-18 14:41:00,638 autoreload 7452 8103665344 Watching for file changes with StatReloader
+INFO 2023-11-18 14:41:02,740 autoreload 7452 8103665344 /Users/ruslanalbakov/Documents/Interview/myproject/idea/views.py changed, reloading.
+INFO 2023-11-18 14:41:02,898 autoreload 7458 8103665344 Watching for file changes with StatReloader
+INFO 2023-11-18 14:41:06,005 autoreload 7458 8103665344 /Users/ruslanalbakov/Documents/Interview/myproject/idea/views.py changed, reloading.
+INFO 2023-11-18 14:41:06,167 autoreload 7459 8103665344 Watching for file changes with StatReloader
+INFO 2023-11-18 14:41:08,616 basehttp 7459 6136573952 "GET / HTTP/1.1" 200 15776
+INFO 2023-11-18 14:41:11,140 views 7459 6136573952 Получили name=<CarMark: Thairung>
+INFO 2023-11-18 14:41:11,169 basehttp 7459 6136573952 "POST / HTTP/1.1" 200 15797
+INFO 2023-11-18 14:41:17,067 views 7459 6136573952 Получили name=<CarMark: Marussia>
+INFO 2023-11-18 14:41:17,080 basehttp 7459 6136573952 "POST / HTTP/1.1" 200 15800
+INFO 2023-11-18 14:41:32,795 autoreload 7459 8103665344 /Users/ruslanalbakov/Documents/Interview/myproject/idea/views.py changed, reloading.
+INFO 2023-11-18 14:41:32,964 autoreload 7471 8103665344 Watching for file changes with StatReloader
+INFO 2023-11-18 14:41:37,139 basehttp 7471 6131003392 "GET / HTTP/1.1" 200 15776
+INFO 2023-11-18 14:42:16,158 basehttp 7471 6131003392 "GET / HTTP/1.1" 200 15776
+INFO 2023-11-18 14:42:18,563 views 7471 6131003392 Получили name=<CarMark: Thairung>
+INFO 2023-11-18 14:42:18,594 basehttp 7471 6131003392 "POST / HTTP/1.1" 200 15810
+INFO 2023-11-18 14:42:22,241 views 7471 6131003392 Получили name=<CarMark: Marussia>
+INFO 2023-11-18 14:42:22,253 basehttp 7471 6131003392 "POST / HTTP/1.1" 200 15826
+INFO 2023-11-18 14:42:25,456 views 7471 6131003392 Получили name=<CarMark: Matra>
+INFO 2023-11-18 14:42:25,487 basehttp 7471 6131003392 "POST / HTTP/1.1" 200 15805
+INFO 2023-11-18 14:42:39,880 views 7471 6131003392 Получили name=<CarMark: Audi>
+INFO 2023-11-18 14:42:39,913 basehttp 7471 6131003392 "POST / HTTP/1.1" 200 17810
+INFO 2023-11-18 14:44:15,851 views 7471 6131003392 Получили name=<CarMark: Audi>
+INFO 2023-11-18 14:44:15,880 basehttp 7471 6131003392 "POST / HTTP/1.1" 200 17668
+INFO 2023-11-18 14:44:21,311 views 7471 6131003392 Получили name=<CarMark: Trabant>
+INFO 2023-11-18 14:44:21,343 basehttp 7471 6131003392 "POST / HTTP/1.1" 200 15874
+INFO 2023-11-18 14:44:37,825 basehttp 7471 6131003392 "GET / HTTP/1.1" 200 15777
+INFO 2023-11-18 14:44:40,887 views 7471 6131003392 Получили name=<CarMark: Thairung>
+INFO 2023-11-18 14:44:40,917 basehttp 7471 6131003392 "POST / HTTP/1.1" 200 15809
+INFO 2023-11-18 14:45:00,188 basehttp 7471 6131003392 "GET / HTTP/1.1" 200 15782
+INFO 2023-11-18 14:45:04,449 views 7471 6131003392 Получили name=<CarMark: Koenigsegg>
+INFO 2023-11-18 14:45:04,482 basehttp 7471 6131003392 "POST / HTTP/1.1" 200 15960
+INFO 2023-11-18 14:45:17,749 basehttp 7471 6131003392 "GET / HTTP/1.1" 200 15769
+INFO 2023-11-18 14:45:21,460 views 7471 6131003392 Получили name=<CarMark: Marussia>
+INFO 2023-11-18 14:45:21,492 basehttp 7471 6131003392 "POST / HTTP/1.1" 200 15815
+INFO 2023-11-18 14:45:30,153 basehttp 7471 6147829760 "GET / HTTP/1.1" 200 15769
+WARNING 2023-11-18 14:45:30,197 log 7471 6147829760 Not Found: /favicon.ico
+WARNING 2023-11-18 14:45:30,197 basehttp 7471 6147829760 "GET /favicon.ico HTTP/1.1" 404 2274
+INFO 2023-11-18 14:45:33,249 views 7471 6147829760 Получили name=<CarMark: Marussia>
+INFO 2023-11-18 14:45:33,278 basehttp 7471 6147829760 "POST / HTTP/1.1" 200 15815
+INFO 2023-11-18 14:45:36,266 views 7471 6147829760 Получили name=<CarMark: Enovate>
+INFO 2023-11-18 14:45:36,281 basehttp 7471 6147829760 "POST / HTTP/1.1" 200 15793
+INFO 2023-11-18 14:45:39,922 views 7471 6147829760 Получили name=<CarMark: Iveco>
+INFO 2023-11-18 14:45:39,950 basehttp 7471 6147829760 "POST / HTTP/1.1" 200 15796
+INFO 2023-11-18 14:46:09,592 basehttp 7471 6131003392 "GET / HTTP/1.1" 200 15769
+INFO 2023-11-18 14:46:12,294 views 7471 6131003392 Получили name=<CarMark: Koenigsegg>
+INFO 2023-11-18 14:46:12,325 basehttp 7471 6131003392 "POST / HTTP/1.1" 200 16241
+INFO 2023-11-18 14:46:21,628 basehttp 7471 6131003392 "GET / HTTP/1.1" 200 15811
+INFO 2023-11-18 14:46:24,405 views 7471 6131003392 Получили name=<CarMark: Koenigsegg>
+INFO 2023-11-18 14:46:24,435 basehttp 7471 6131003392 "POST / HTTP/1.1" 200 15989
+INFO 2023-11-18 14:46:47,309 basehttp 7471 6131003392 "GET / HTTP/1.1" 200 15775
+INFO 2023-11-18 14:46:58,044 views 7471 6131003392 Получили name=<CarMark: Marussia>
+INFO 2023-11-18 14:46:58,077 basehttp 7471 6131003392 "POST / HTTP/1.1" 200 15815
+INFO 2023-11-18 14:47:44,440 views 7471 6131003392 Получили name=<CarMark: Minelli>
+INFO 2023-11-18 14:47:44,473 basehttp 7471 6131003392 "POST / HTTP/1.1" 200 15797
+INFO 2023-11-18 14:48:42,503 views 7471 6131003392 Получили name=<CarMark: KTM AG>
+INFO 2023-11-18 14:48:42,533 basehttp 7471 6131003392 "POST / HTTP/1.1" 200 15795
+INFO 2023-11-18 14:48:45,762 views 7471 6131003392 Получили name=<CarMark: KTM AG>
+INFO 2023-11-18 14:48:45,792 basehttp 7471 6131003392 "POST / HTTP/1.1" 200 15795
+INFO 2023-11-18 14:48:46,691 views 7471 6131003392 Получили name=<CarMark: KTM AG>
+INFO 2023-11-18 14:48:46,722 basehttp 7471 6131003392 "POST / HTTP/1.1" 200 15795
+INFO 2023-11-18 14:50:09,687 basehttp 7471 6131003392 "GET / HTTP/1.1" 200 15769
+INFO 2023-11-18 14:50:14,034 views 7471 6131003392 Получили name=<CarMark: Thairung>
+INFO 2023-11-18 14:50:14,062 basehttp 7471 6131003392 "POST / HTTP/1.1" 200 15801
+INFO 2023-11-18 14:50:25,218 views 7471 6164656128 Получили name=<CarMark: Gonow>
+INFO 2023-11-18 14:50:25,248 basehttp 7471 6164656128 "POST / HTTP/1.1" 200 15794

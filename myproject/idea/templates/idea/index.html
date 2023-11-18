@@ -3,10 +3,10 @@
 {% block content %}
 <form action="" method="post">
     {% csrf_token %}
-    {% for model in form %}
-    <div> {{ model }} </div>
+    {{ form }} 
+    <input type="submit" value="Показать">
+    {% for car in cars %}
+    <li> {{ car }} </li>
     {% endfor %}
-    <div> <input type="submit" value="Получить"> </div>
 </form>
 {% endblock %}
-
