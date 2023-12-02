@@ -18,11 +18,9 @@ class Command(BaseCommand):
         r = requests.get(URL_TEMPLATE)
         logger.info(f'{r.status_code}')
         soup = bs(r.text, features='xml')
-        cars = []
-        models = []
         for mark in soup.find_all('mark'):
             car_mark = CarMark(name=mark['name'])
-            cars.append(car_mark)
+            car_mark.save()
             temp_set = set()
             for model in mark.find_all('folder'):
                 temp_set.add(model['name'].split(',')[0])
