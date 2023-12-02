@@ -290,3 +290,95 @@ INFO 2023-11-19 12:27:34,610 update_autoru_catalog 11465 8103665344 200
 INFO 2023-11-19 12:27:41,768 update_autoru_catalog 11465 8103665344 End
 INFO 2023-11-19 12:28:30,037 update_autoru_catalog 11510 8103665344 200
 INFO 2023-11-19 12:36:43,027 update_autoru_catalog 11645 8103665344 200
+INFO 2023-12-02 11:38:38,940 autoreload 5614 8153112256 Watching for file changes with StatReloader
+INFO 2023-12-02 11:38:42,314 basehttp 5614 6157398016 "GET / HTTP/1.1" 200 15764
+WARNING 2023-12-02 11:38:42,407 log 5614 6157398016 Not Found: /favicon.ico
+WARNING 2023-12-02 11:38:42,407 basehttp 5614 6157398016 "GET /favicon.ico HTTP/1.1" 404 2274
+WARNING 2023-12-02 11:38:42,407 log 5614 6174224384 Not Found: /apple-touch-icon-precomposed.png
+WARNING 2023-12-02 11:38:42,408 basehttp 5614 6174224384 "GET /apple-touch-icon-precomposed.png HTTP/1.1" 404 2337
+WARNING 2023-12-02 11:38:42,410 log 5614 6174224384 Not Found: /apple-touch-icon.png
+WARNING 2023-12-02 11:38:42,410 basehttp 5614 6174224384 "GET /apple-touch-icon.png HTTP/1.1" 404 2301
+INFO 2023-12-02 11:38:45,085 views 5614 6157398016 Получили name=<CarMark: Koenigsegg>
+INFO 2023-12-02 11:38:45,123 basehttp 5614 6157398016 "POST / HTTP/1.1" 200 15942
+INFO 2023-12-02 11:39:07,056 update_autoru_catalog 5645 8153112256 200
+INFO 2023-12-02 11:40:26,359 update_autoru_catalog 5681 8153112256 200
+INFO 2023-12-02 11:41:16,466 update_autoru_catalog 5715 8153112256 200
+INFO 2023-12-02 11:43:21,556 update_autoru_catalog 5777 8153112256 200
+INFO 2023-12-02 11:44:57,183 autoreload 5814 8153112256 Watching for file changes with StatReloader
+INFO 2023-12-02 11:44:59,919 basehttp 5814 6156529664 "POST / HTTP/1.1" 200 16093
+INFO 2023-12-02 11:45:06,447 views 5814 6156529664 Получили name=<CarMark: Marussia>
+INFO 2023-12-02 11:45:06,478 basehttp 5814 6156529664 "POST / HTTP/1.1" 200 15926
+INFO 2023-12-02 11:45:07,727 views 5814 6156529664 Получили name=<CarMark: Marussia>
+INFO 2023-12-02 11:45:07,757 basehttp 5814 6156529664 "POST / HTTP/1.1" 200 15926
+INFO 2023-12-02 11:45:10,481 views 5814 6156529664 Получили name=<CarMark: Minelli>
+INFO 2023-12-02 11:45:10,511 basehttp 5814 6156529664 "POST / HTTP/1.1" 200 15926
+INFO 2023-12-02 11:45:20,732 basehttp 5814 6156529664 "GET / HTTP/1.1" 200 15926
+INFO 2023-12-02 11:45:22,933 views 5814 6156529664 Получили name=<CarMark: Koenigsegg>
+INFO 2023-12-02 11:45:22,962 basehttp 5814 6156529664 "POST / HTTP/1.1" 200 15926
+INFO 2023-12-02 11:46:17,574 autoreload 5814 8153112256 /Users/ruslanalbakov/Documents/Interview/myproject/idea/views.py changed, reloading.
+INFO 2023-12-02 11:46:17,731 autoreload 5841 8153112256 Watching for file changes with StatReloader
+INFO 2023-12-02 11:46:24,872 autoreload 5841 8153112256 /Users/ruslanalbakov/Documents/Interview/myproject/idea/views.py changed, reloading.
+INFO 2023-12-02 11:46:25,033 autoreload 5849 8153112256 Watching for file changes with StatReloader
+INFO 2023-12-02 11:46:26,136 autoreload 5849 8153112256 /Users/ruslanalbakov/Documents/Interview/myproject/idea/views.py changed, reloading.
+INFO 2023-12-02 11:46:26,278 autoreload 5853 8153112256 Watching for file changes with StatReloader
+INFO 2023-12-02 11:46:39,579 autoreload 5853 8153112256 /Users/ruslanalbakov/Documents/Interview/myproject/idea/views.py changed, reloading.
+INFO 2023-12-02 11:46:39,752 autoreload 5860 8153112256 Watching for file changes with StatReloader
+INFO 2023-12-02 11:46:42,202 views 5860 6170767360 Получили name=<CarMark: Koenigsegg>
+INFO 2023-12-02 11:46:42,203 views 5860 6170767360 Получили cars=<QuerySet []>
+INFO 2023-12-02 11:46:42,233 basehttp 5860 6170767360 "POST / HTTP/1.1" 200 15926
+INFO 2023-12-02 11:46:44,643 basehttp 5860 6170767360 "GET / HTTP/1.1" 200 15926
+INFO 2023-12-02 11:46:47,067 views 5860 6170767360 Получили name=<CarMark: Koenigsegg>
+INFO 2023-12-02 11:46:47,068 views 5860 6170767360 Получили cars=<QuerySet []>
+INFO 2023-12-02 11:46:47,098 basehttp 5860 6170767360 "POST / HTTP/1.1" 200 15926
+INFO 2023-12-02 11:49:49,841 autoreload 5860 8153112256 /Users/ruslanalbakov/Documents/Interview/myproject/idea/views.py changed, reloading.
+INFO 2023-12-02 11:49:50,005 autoreload 5943 8153112256 Watching for file changes with StatReloader
+INFO 2023-12-02 11:49:54,987 views 5943 6164492288 Получили name=<CarMark: Koenigsegg>
+ERROR 2023-12-02 11:49:55,011 log 5943 6164492288 Internal Server Error: /
+Traceback (most recent call last):
+  File "/Users/ruslanalbakov/Documents/Interview/venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ruslanalbakov/Documents/Interview/venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ruslanalbakov/Documents/Interview/myproject/idea/views.py", line 16, in show_model_car
+    cars = CarModel.objects.filter(carmark=name[0])
+                                           ~~~~^^^
+TypeError: 'CarMark' object is not subscriptable
+ERROR 2023-12-02 11:49:55,011 basehttp 5943 6164492288 "POST / HTTP/1.1" 500 62820
+INFO 2023-12-02 11:50:00,309 autoreload 5943 8153112256 /Users/ruslanalbakov/Documents/Interview/myproject/idea/views.py changed, reloading.
+INFO 2023-12-02 11:50:00,475 autoreload 5955 8153112256 Watching for file changes with StatReloader
+INFO 2023-12-02 11:50:05,627 autoreload 5955 8153112256 /Users/ruslanalbakov/Documents/Interview/myproject/idea/views.py changed, reloading.
+INFO 2023-12-02 11:50:05,777 autoreload 5961 8153112256 Watching for file changes with StatReloader
+INFO 2023-12-02 11:50:08,896 views 5961 6190411776 Получили Koenigsegg
+INFO 2023-12-02 11:50:08,897 views 5961 6190411776 Получили cars=<QuerySet []>
+INFO 2023-12-02 11:50:08,928 basehttp 5961 6190411776 "POST / HTTP/1.1" 200 15926
+INFO 2023-12-02 11:50:11,211 views 5961 6190411776 Получили Mitsuoka
+INFO 2023-12-02 11:50:11,212 views 5961 6190411776 Получили cars=<QuerySet []>
+INFO 2023-12-02 11:50:11,244 basehttp 5961 6190411776 "POST / HTTP/1.1" 200 15926
+INFO 2023-12-02 11:50:50,562 autoreload 5961 8153112256 /Users/ruslanalbakov/Documents/Interview/myproject/idea/views.py changed, reloading.
+INFO 2023-12-02 11:50:50,725 autoreload 5979 8153112256 Watching for file changes with StatReloader
+INFO 2023-12-02 11:50:53,115 views 5979 6157742080 Получили Mitsuoka
+INFO 2023-12-02 11:50:53,117 views 5979 6157742080 Получили <QuerySet []>
+INFO 2023-12-02 11:50:53,148 basehttp 5979 6157742080 "POST / HTTP/1.1" 200 15926
+INFO 2023-12-02 11:51:42,771 views 5979 6157742080 Получили Thairung
+INFO 2023-12-02 11:51:42,773 views 5979 6157742080 Получили <QuerySet [<CarModel: Transformer>, <CarModel: One:1>, <CarModel: Regera>, <CarModel: Agera>, <CarModel: Jesco>, <CarModel: CCX>, <CarModel: CCR>, <CarModel: CC8S>, <CarModel: B1>, <CarModel: B2>, <CarModel: Bubu Classic SSK>, <CarModel: Ryugi>, <CarModel: Le-Seyde>, <CarModel: Yuga>, <CarModel: Galue 204>, <CarModel: Viewt>, <CarModel: Zero 1>, <CarModel: Galue>, <CarModel: Ryoga>, <CarModel: Orochi>, '...(remaining elements truncated)...']>
+INFO 2023-12-02 11:51:42,830 basehttp 5979 6157742080 "POST / HTTP/1.1" 200 124476
+INFO 2023-12-02 11:52:56,522 update_autoru_catalog 6014 8153112256 200
+INFO 2023-12-02 11:55:18,506 update_autoru_catalog 6045 8153112256 200
+INFO 2023-12-02 11:55:56,969 update_autoru_catalog 6088 8153112256 200
+INFO 2023-12-02 11:58:28,044 update_autoru_catalog 6126 8153112256 200
+INFO 2023-12-02 12:02:37,829 update_autoru_catalog 6194 8153112256 200
+INFO 2023-12-02 12:05:23,144 update_autoru_catalog 6288 8153112256 200
+INFO 2023-12-02 12:11:40,683 update_autoru_catalog 6448 8153112256 200
+INFO 2023-12-02 12:12:01,612 autoreload 6479 8153112256 Watching for file changes with StatReloader
+INFO 2023-12-02 12:12:04,935 basehttp 6479 6192672768 "POST / HTTP/1.1" 200 16093
+INFO 2023-12-02 12:12:07,041 views 6479 6192672768 Получили Thairung
+INFO 2023-12-02 12:12:07,042 views 6479 6192672768 Получили <QuerySet [<CarModel: Transformer>]>
+INFO 2023-12-02 12:12:07,073 basehttp 6479 6192672768 "POST / HTTP/1.1" 200 15958
+INFO 2023-12-02 12:12:09,572 views 6479 6192672768 Получили Renault
+INFO 2023-12-02 12:12:09,573 views 6479 6192672768 Получили <QuerySet [<CarModel: Talisman>, <CarModel: Megane>, <CarModel: 4CV>, <CarModel: Logan>, <CarModel: Austral>, <CarModel: 9>, <CarModel: Lodgy>, <CarModel: 5>, <CarModel: Kadjar>, <CarModel: Fluence>, <CarModel: 11>, <CarModel: Megane E-Tech>, <CarModel: Kaptur>, <CarModel: Clio V6>, <CarModel: Sport Spider>, <CarModel: Laguna>, <CarModel: Twizy>, <CarModel: 15>, <CarModel: Caravelle>, <CarModel: 6>, '...(remaining elements truncated)...']>
+INFO 2023-12-02 12:12:09,603 basehttp 6479 6192672768 "POST / HTTP/1.1" 200 17691
+INFO 2023-12-02 12:12:14,637 views 6479 6192672768 Получили Marussia
+INFO 2023-12-02 12:12:14,638 views 6479 6192672768 Получили <QuerySet [<CarModel: B2>, <CarModel: B1>]>
+INFO 2023-12-02 12:12:14,667 basehttp 6479 6192672768 "POST / HTTP/1.1" 200 15972
